@@ -7,16 +7,21 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: nginx
+      app: techtrends
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
   template:
     metadata:
       labels:
-        app: nginx
+        app: techtrends
     spec:
       containers:
       - name: techtrends
-        image: techtrends:latest
-        ports: 3111
+        image: morderngeek/techtrends:latest
+        ports: 
+        - containerPort: 3111
         resources:
         requests:
           cpu: 250m
@@ -28,4 +33,8 @@ spec:
           httpGet:
           path: /healthz
           port: 3111
-        - containerPort: 3111
+        readinessProbe:
+          httpGet:
+          path: /healthz
+          port: 3111
+        

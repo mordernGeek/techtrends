@@ -12,6 +12,6 @@ spec:
     protocol: TCP
     targetPort: 3111
   selector:
-    app: nginx
+    app: techtrends
     tag: 
   type: ClusterIP
