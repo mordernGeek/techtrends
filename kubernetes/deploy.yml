@@ -12,6 +12,7 @@ spec:
     rollingUpdate:
       maxSurge: 25%
       maxUnavailable: 25%
+    type: RollingUpdate
   template:
     metadata:
       labels:
@@ -23,18 +24,18 @@ spec:
         ports: 
         - containerPort: 3111
         resources:
-        requests:
-          cpu: 250m
-          memory: 64Mi
-        limits:
-          cpu: 500m
-          memory: 128Mi
+          requests:
+            cpu: 250m
+            memory: 64Mi
+          limits:
+            cpu: 500m
+            memory: 128Mi
         livenessProbe:
           httpGet:
-          path: /healthz
-          port: 3111
+            path: /healthz
+            port: 3111
         readinessProbe:
           httpGet:
-          path: /healthz
-          port: 3111
+            path: /healthz
+            port: 3111
         
