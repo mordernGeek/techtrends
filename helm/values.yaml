@@ -1,0 +1,39 @@
+namespace:
+  name: sandbox
+ 
+service:
+  port: 4111
+  protocol: TCP
+  targetPort: 3111
+  type: ClusterIP
+
+image:
+  repository: morderngeek/techtrends
+  tag: latest
+  pullPolicy: IfNotPresent
+
+replicaCount: 1
+
+resources:
+  requests:
+    cpu: 250m
+    memory: 64Mi
+   limits:
+    cpu: 500m
+    memory: 128Mi
+
+ports:
+  containerPort: 3111
+
+livenessProbe:
+  httpGet:
+    path: /healthz
+    port: 3111
+      
+  
+readinessProbe:
+  httpGet: 
+    path: /healthz
+    port: 3111
+  
+  
