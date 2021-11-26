@@ -20,4 +20,12 @@ resources:
     cpu: 500m
     memory: 256Mi
 
+readinessProbe:
+  httpGet:
+    port: 3111
+    path: /healthz
 
+livenessProbe:
+  httpGet:
+    port: 3111
+    path: /healthz

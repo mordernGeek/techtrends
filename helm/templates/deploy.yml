@@ -29,7 +29,6 @@ spec:
         name: techtrends
         resources:
 {{ toYaml .Values.resources | indent 12 }}
-{{- if .Values.probes.enabled }}
         livenessProbe:
           httpGet:
             path: /healthz
@@ -40,4 +39,3 @@ spec:
             path: /healthz
             port: http  
           initialDelaySeconds: 15
-{{- end }}
