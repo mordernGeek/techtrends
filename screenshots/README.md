@@ -1,3 +1,3 @@
-## Screenshots 
+This project was run from a cloud provider hence the slight disparities in IP addresses
 
-Place any project screenshots in this directory.
+Kindly take note
