@@ -8,7 +8,7 @@ service:
 image:
   repository: techtrends
   tag: latest
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 replicaCount: 3
 
