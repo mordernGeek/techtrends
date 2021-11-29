@@ -1,0 +1,633 @@
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 00:53:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 00:53:12] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 00:53:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:app:post was found
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 00:53:17] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 00:53:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 00:53:24] "[35m[1mGET /create HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 00:53:25] "GET /create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 00:53:25] "GET /create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 00:53:26] "GET /create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 00:53:26] "GET /create?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 00:53:26] "GET /create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:app:About Us retrieved successfully
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 00:53:38] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 00:53:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 00:53:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 00:53:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:post was found
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 00:53:52] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 00:53:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:43:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:43:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+DEBUG:app:Healthz endpoint request successful
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:43:26] "GET /healthz HTTP/1.1" 200 -
+INFO:app:Metrics request successful
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:43:36] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:45:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:45:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:46:08] "[35m[1mGET /metrics HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:46:08] "GET /metrics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:46:09] "GET /metrics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:46:09] "GET /metrics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:46:09] "GET /metrics?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:46:09] "GET /metrics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:46:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:46:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:46:29] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:46:30] "GET /1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:46:30] "GET /1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:46:30] "GET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:46:30] "GET /1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:46:30] "GET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:48:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:48:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+DEBUG:app:About Us retrieved successfully
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:48:27] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:48:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:48:30] "GET /create HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:48:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:48:35] "POST /create HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:48:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:48:36] "POST /create HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:48:36] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:48:39] "POST /create HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:48:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:48:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:48:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:49:08] "[35m[1mGET /2 HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:49:08] "GET /2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:49:08] "GET /2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:49:08] "GET /2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:49:09] "GET /2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:49:09] "GET /2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:54:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:54:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+DEBUG:app:About Us retrieved successfully
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:54:07] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 01:54:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+DEBUG:app:About Us retrieved successfully
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:03:19] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:03:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:03:31] "[35m[1mGET /metrics HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:03:32] "GET /metrics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:03:32] "GET /metrics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:03:32] "GET /metrics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:03:32] "GET /metrics?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:03:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:03:56] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:03:58] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:03:59] "GET /1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:03:59] "GET /1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:03:59] "GET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:03:59] "GET /1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:07:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:07:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Metrics request successful
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:07:17] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:09:36] "[35m[1mGET /metrics HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:09:39] "GET /metrics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:09:39] "GET /metrics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:09:39] "GET /metrics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:09:39] "GET /metrics?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:09:40] "GET /metrics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:app:Metrics request successful
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:10:58] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:17:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:17:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Metrics request successful
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:17:44] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:24:05] "[35m[1mGET /metrics HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:24:07] "GET /metrics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:24:07] "GET /metrics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:24:08] "GET /metrics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:24:08] "GET /metrics?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:24:09] "GET /metrics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:25:08] "[35m[1mGET /metrics HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:25:09] "GET /metrics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:25:09] "GET /metrics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:25:09] "GET /metrics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:25:09] "GET /metrics?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [29/Nov/2021 02:25:09] "GET /metrics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:18:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:18:49] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:18:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:app:Metrics request successful
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:19:05] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:app:Metrics request successful
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:22:10] "GET /metrics HTTP/1.1" 200 -
+INFO:app:Metrics request successful
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:22:17] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:22:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:22:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+DEBUG:app:Healthz endpoint request successful
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:22:35] "GET /healthz HTTP/1.1" 200 -
+INFO:app:Metrics request successful
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:22:44] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:22:54] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:22:54] "GET /1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:22:54] "GET /1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:22:55] "GET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:22:55] "GET /1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:22:55] "GET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:29:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:29:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+DEBUG:app:About Us retrieved successfully
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:29:28] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:29:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:29:31] "GET /create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:29:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:32:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:32:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:32:30] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:32:30] "GET /1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:32:30] "GET /1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:32:30] "GET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:32:30] "GET /1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:37:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:37:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Metrics request successful
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:38:03] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:38:10] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:38:10] "GET /1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:38:10] "GET /1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:38:10] "GET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:38:11] "GET /1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:39:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:39:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:39:41] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:39:41] "GET /1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:39:41] "GET /1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:39:41] "GET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:39:41] "GET /1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:40:35] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:40:37] "GET /1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:40:37] "GET /1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:40:37] "GET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:40:37] "GET /1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:40:37] "GET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:42:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:42:17] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:42:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:42:22] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:42:22] "GET /1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:42:22] "GET /1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:42:22] "GET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:42:22] "GET /1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:42:22] "GET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:46:15] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:46:17] "GET /1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:46:17] "GET /1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:46:17] "GET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:46:17] "GET /1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:46:17] "GET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:46:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:46:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:46:27] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:46:27] "GET /1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:46:27] "GET /1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:46:27] "GET /1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:46:27] "GET /1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+DEBUG:app:Article 2020 CNCF Annual Report is retrieved!
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:50:54] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:50:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:51:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:51:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+DEBUG:app:About Us retrieved successfully
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:51:13] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:51:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:51:14] "GET /create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:51:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:51:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:51:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+DEBUG:app:Healthz endpoint request successful
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:51:22] "GET /healthz HTTP/1.1" 200 -
+INFO:app:Metrics request successful
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:51:30] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:51:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2021 08:51:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)

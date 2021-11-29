@@ -1,4 +1,5 @@
 from logging import Logger
+import logging
 import sqlite3
 #from typing import get_args
 
@@ -7,6 +8,10 @@ from werkzeug.exceptions import abort
 
 # Function to get a database connection.
 # This function connects to database with the name `database.db`
+counter = 0
+
+
+
 def get_db_connection():
     connection = sqlite3.connect('database.db')
     connection.row_factory = sqlite3.Row
@@ -20,6 +25,13 @@ def get_post(post_id):
     connection.close()
     return post
 
+def get_title(post_id):
+    connection = get_db_connection()
+    post = connection.execute('SELECT title FROM posts WHERE id = ?',
+                         (post_id,)).fetchall()          
+    connection.close()
+    return (post)
+
 # Define the Flask application
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your secret key'
@@ -27,6 +39,8 @@ app.config['SECRET_KEY'] = 'your secret key'
 # Define the main route of the web application 
 @app.route('/')
 def index():
+    global counter 
+    counter = counter + 1
     connection = get_db_connection()
     posts = connection.execute('SELECT * FROM posts').fetchall()
     connection.close()
@@ -38,19 +52,21 @@ def index():
 def post(post_id): 
      
     post = get_post(post_id)
+    
 
     if post is None:
-        app.logger.warning('404 Not found error')
+        app.logger.debug('404 Not found error')
         return render_template('404.html'), 404
       
     else:
-        app.logger.info('post was found')
+        
+        app.logger.debug('Article ' + post['title'] + ' is retrieved!') #edited
         return render_template('post.html', post=post)
       
 # Define the About Us page
 @app.route('/about')
 def about():
-    app.logger.info('About Us retrieved successfully')
+    app.logger.debug('About Us retrieved successfully')
     return render_template('about.html')
     
 
@@ -59,6 +75,7 @@ def about():
 def create():
     if request.method == 'POST':
         title = request.form['title']
+        topic = str(title) #added
         content = request.form['content']
 
         if not title:
@@ -67,29 +84,18 @@ def create():
             connection = get_db_connection()
             connection.execute('INSERT INTO posts (title, content) VALUES (?, ?)',
                          (title, content))
-            #app.logger.info('New Article ' + title  + ' is created!')
+            app.logger.debug('New Article ' + topic  + ' is created!')
             connection.commit()
             connection.close()
             
             return redirect(url_for('index'))
 
-    else:
-        
-        title = request.form['title']
-        content = request.form['content']
-
-        connection = get_db_connection()
-        connection.execute('SELECT FROM posts (title) VALUES (?)',
-                         (title))
-            #app.logger.info('New Article ' + title  + ' is retrieved!')
-        connection.commit()
-        connection.close()
-
-        return redirect(url_for('index'))
+    
 
     return render_template('create.html')
 
 # adding the /healthz endpoint
+
 
 @app.route('/healthz')
 def healthz():  #def healthcheck():
@@ -99,7 +105,7 @@ def healthz():  #def healthcheck():
         mimetype='application/json'
    
     )
-    app.logger.info('Healthz endpoint request successful')
+    app.logger.debug('Healthz endpoint request successful')
     
     return response
 
@@ -107,14 +113,14 @@ def healthz():  #def healthcheck():
 # adding the metrics endpoint
 @app.route('/metrics')
 def metrics():
-    counter = 0
+    global counter
     connection = get_db_connection()
-    counter = counter + 1
-    posts = connection.execute('SELECT * FROM posts')
+    posts_count = connection.execute('SELECT COUNT(*) FROM posts').fetchone()[0]   #edited
+    articles = str(posts_count)
 
     connection.close()
     response = app.response_class(
-        response=json.dumps({"status":"success","data":{"db_connection_count":counter,"post_count":posts}}),
+        response=json.dumps({"status":"success","data":{"db_connection_count":counter,"post_count":articles}}),
         status=200,
         mimetype='application/json'
     )
@@ -124,4 +130,5 @@ def metrics():
 
 # start the application on port 3111
 if __name__ == "__main__":
-   app.run(host='0.0.0.0', port='3111')
+   logging.basicConfig(filename='techtrends.log',level=logging.DEBUG)
+   app.run(debug=True, host='0.0.0.0', port='3111') #edited
