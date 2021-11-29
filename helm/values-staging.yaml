@@ -7,7 +7,7 @@ service:
 
 image:
   repository: techtrends
-  tag: 1.18.0
+  tag: latest
   pullPolicy: IfNotPresent
 
 replicaCount: 3
@@ -18,6 +18,15 @@ resources:
     memory: 90Mi
   limits:
     cpu: 500m
-    memory:128Mi
+    memory: 128Mi
 
 
+readinessProbe:
+  httpGet:
+    port: 3111
+    path: /healthz
+
+livenessProbe:
+  httpGet:
+    port: 3111
+    path: /healthz
