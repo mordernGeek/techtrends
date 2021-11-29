@@ -12,6 +12,6 @@ spec:
     helm:
       valueFiles:
       - values-prod.yaml
-    path: helm
+    path: argocd
     repoURL: https://github.com/mordernGeek/techtrends 
     targetRevision: HEAD
