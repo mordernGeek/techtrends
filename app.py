@@ -2,6 +2,9 @@ from logging import Logger
 import logging
 import sqlite3
 #from typing import get_args
+logging.basicConfig(level=logging.NOTSET)
+logging.basicConfig(filename='techtrends.log',format='%(asctime)s - %(message)s') #edited
+
 
 from flask import Flask, jsonify, json, render_template, request, url_for, redirect, flash
 from werkzeug.exceptions import abort
@@ -55,7 +58,7 @@ def post(post_id):
     
 
     if post is None:
-        app.logger.debug('404 Not found error')
+        app.logger.error('404 Not found error')
         return render_template('404.html'), 404
       
     else:
@@ -130,5 +133,5 @@ def metrics():
 
 # start the application on port 3111
 if __name__ == "__main__":
-   logging.basicConfig(filename='techtrends.log',level=logging.DEBUG)
+   #logging.basicConfig(filename='techtrends.log',level=logging.DEBUG)
    app.run(debug=True, host='0.0.0.0', port='3111') #edited

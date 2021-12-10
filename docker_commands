@@ -2,21 +2,59 @@
 docker build -t techtrends .
 
 ## Docker commands used to run the application
-Docker run -d -p 7111:3111 techtrends
+Docker run -d -p 7111:3111 morderngeek/techtrends
 
 ## Docker commands used to get the application logs
 docker ps
-docker logs 2cf2b2d71228 --timestamps
+docker logs 2cf******* --timestamps
 
-## Logs from the container running the TechTrends application
-2021-11-05T09:58:38.923165800Z  * Serving Flask app "app" (lazy loading)
-2021-11-05T09:58:38.923479700Z  * Environment: production
-2021-11-05T09:58:38.923497400Z    WARNING: This is a development server. Do not use it in a production deployment.
-2021-11-05T09:58:38.923514300Z    Use a production WSGI server instead.
-2021-11-05T09:58:38.923554700Z  * Debug mode: off
-2021-11-05T09:58:39.403412800Z  * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
-2021-11-05T09:59:40.696114100Z 172.17.0.1 - - [05/Nov/2021 09:59:40] "GET / HTTP/1.1" 200 -
-2021-11-05T09:59:48.148686300Z 172.17.0.1 - - [05/Nov/2021 09:59:48] "GET /static/css/main.css HTTP/1.1" 200 -
-2021-11-05T09:59:50.995686600Z 172.17.0.1 - - [05/Nov/2021 09:59:50] "GET /favicon.ico HTTP/1.1" 404 -
-2021-11-05T12:05:54.404051400Z 172.17.0.1 - - [05/Nov/2021 12:05:54] "GET /1 HTTP/1.1" 200 -
-2021-11-05T12:11:15.125948900Z 172.17.0.1 - - [05/Nov/2021 12:11:15] "GET /3 HTTP/1.1" 200 -
+## Logs from the container running the TechTrends application on 3111 & 7111
+
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.188.0.2:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-883-967
+INFO:werkzeug:129.205.124.91 - - [10/Dec/2021 09:03:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:129.205.124.91 - - [10/Dec/2021 09:03:57] "GET /static/css/main.css HTTP/1.
+1" 304 -
+INFO:werkzeug:129.205.124.91 - - [10/Dec/2021 09:03:58] "GET /favicon.ico HTTP/1.1" 404 -
+DEBUG:app:Article 2020 CNCF Annual Report is retrieved!
+INFO:werkzeug:129.205.124.91 - - [10/Dec/2021 09:04:08] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:129.205.124.91 - - [10/Dec/2021 09:04:08] "GET /static/css/main.css HTTP/1.
+1" 304 -
+DEBUG:app:About Us retrieved successfully
+INFO:werkzeug:129.205.124.91 - - [10/Dec/2021 09:04:12] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:129.205.124.91 - - [10/Dec/2021 09:04:12] "GET /static/css/main.css HTTP/1.
+1" 304 -
+
+INFO:werkzeug: * Running on http://192.168.43.42:7111/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.43.42 - - [10/Dec/2021 19:26:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [10/Dec/2021 19:26:27] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [10/Dec/2021 19:26:30] "GET /favicon.ico HTTP/1.1" 404 
+-
+DEBUG:app:Article 2020 CNCF Annual Report is retrieved!
+INFO:werkzeug:192.168.43.42 - - [10/Dec/2021 19:26:36] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [10/Dec/2021 19:26:38] "GET /static/css/main.css HTTP/1.1
+0m" 304 -
+DEBUG:app:About Us retrieved successfully
+INFO:werkzeug:192.168.43.42 - - [10/Dec/2021 19:27:38] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [10/Dec/2021 19:27:40] "GET /static/css/main.css HTTP/1.1
+0m" 304 -
+INFO:werkzeug:192.168.43.42 - - [10/Dec/2021 19:27:43] "GET /create HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [10/Dec/2021 19:27:43] "GET /static/css/main.css HTTP/1.1
+0m" 304 -
+DEBUG:app:New Article sample is created!
+INFO:werkzeug:192.168.43.42 - - [10/Dec/2021 19:27:58] "POST /create HTTP/1.1" 302 -   
+INFO:werkzeug:192.168.43.42 - - [10/Dec/2021 19:27:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [10/Dec/2021 19:27:59] "GET /static/css/main.css HTTP/1.1" 304 -
+DEBUG:app:Article sample is retrieved!
+INFO:werkzeug:192.168.43.42 - - [10/Dec/2021 19:28:07] "GET /7 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.42 - - [10/Dec/2021 19:28:07] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:app:Metrics request successful
+INFO:werkzeug:192.168.43.42 - - [10/Dec/2021 19:28:16] "GET /metrics HTTP/1.1" 200 -
+
+
+
+

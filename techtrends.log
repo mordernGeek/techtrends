@@ -631,3 +631,80 @@ INFO:werkzeug: * Debugger PIN: 484-404-401
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 484-404-401
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2021 06:55:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2021 06:55:58] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2021 06:55:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:app:About Us retrieved successfully
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2021 06:56:03] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2021 06:56:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2021 06:56:05] "GET /create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2021 06:56:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2021 06:56:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2021 06:56:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+DEBUG:app:Article 2020 CNCF Annual Report is retrieved!
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2021 06:56:11] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2021 06:56:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+2021-12-01 06:57:00,452 -  * Debugger is active!
+2021-12-01 06:57:00,473 -  * Debugger PIN: 484-404-401
+2021-12-01 06:57:01,468 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-01 06:57:01,468 -  * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+2021-12-01 06:57:16,409 -  * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+2021-12-01 06:57:19,284 -  * Debugger is active!
+2021-12-01 06:57:19,300 -  * Debugger PIN: 484-404-401
+2021-12-01 06:57:20,415 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-01 06:57:20,415 -  * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+2021-12-01 06:57:38,823 - Article 2020 CNCF Annual Report is retrieved!
+2021-12-01 06:57:38,972 - 127.0.0.1 - - [01/Dec/2021 06:57:38] "GET /1 HTTP/1.1" 200 -
+2021-12-01 06:57:41,303 - 127.0.0.1 - - [01/Dec/2021 06:57:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2021-12-01 06:57:43,947 - 127.0.0.1 - - [01/Dec/2021 06:57:43] "GET / HTTP/1.1" 200 -
+2021-12-01 06:57:44,158 - 127.0.0.1 - - [01/Dec/2021 06:57:44] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2021-12-01 06:57:55,304 - Article Kubernetes v1.20 Release Notes is retrieved!
+2021-12-01 06:57:55,351 - 127.0.0.1 - - [01/Dec/2021 06:57:55] "GET /3 HTTP/1.1" 200 -
+2021-12-01 06:57:55,955 - 127.0.0.1 - - [01/Dec/2021 06:57:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2021-12-01 06:57:59,580 - About Us retrieved successfully
+2021-12-01 06:57:59,591 - 127.0.0.1 - - [01/Dec/2021 06:57:59] "GET /about HTTP/1.1" 200 -
+2021-12-01 06:57:59,937 - 127.0.0.1 - - [01/Dec/2021 06:57:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2021-12-01 06:58:07,029 - Metrics request successful
+2021-12-01 06:58:07,030 - 127.0.0.1 - - [01/Dec/2021 06:58:07] "GET /metrics HTTP/1.1" 200 -
+2021-12-01 06:58:16,245 - Healthz endpoint request successful
+2021-12-01 06:58:16,247 - 127.0.0.1 - - [01/Dec/2021 06:58:16] "GET /healthz HTTP/1.1" 200 -
+2021-12-01 06:59:12,734 -  * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+2021-12-01 06:59:22,563 -  * Debugger is active!
+2021-12-01 06:59:22,598 -  * Debugger PIN: 484-404-401
+2021-12-01 06:59:23,781 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-01 06:59:23,783 -  * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+2021-12-01 07:01:54,361 - 127.0.0.1 - - [01/Dec/2021 07:01:54] "GET / HTTP/1.1" 200 -
+2021-12-01 07:01:58,728 - 127.0.0.1 - - [01/Dec/2021 07:01:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2021-12-01 07:02:16,229 - About Us retrieved successfully
+2021-12-01 07:02:16,252 - 127.0.0.1 - - [01/Dec/2021 07:02:16] "GET /about HTTP/1.1" 200 -
+2021-12-01 07:02:16,479 - 127.0.0.1 - - [01/Dec/2021 07:02:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2021-12-01 07:02:19,700 - 127.0.0.1 - - [01/Dec/2021 07:02:19] "GET /create HTTP/1.1" 200 -
+2021-12-01 07:02:20,356 - 127.0.0.1 - - [01/Dec/2021 07:02:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2021-12-01 07:02:23,185 - 127.0.0.1 - - [01/Dec/2021 07:02:23] "GET / HTTP/1.1" 200 -
+2021-12-01 07:02:23,998 - 127.0.0.1 - - [01/Dec/2021 07:02:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2021-12-01 07:02:26,859 - Article 2020 CNCF Annual Report is retrieved!
+2021-12-01 07:02:26,898 - 127.0.0.1 - - [01/Dec/2021 07:02:26] "GET /1 HTTP/1.1" 200 -
+2021-12-01 07:02:27,140 - 127.0.0.1 - - [01/Dec/2021 07:02:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2021-12-01 07:12:54,988 -  * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+2021-12-01 07:13:06,579 -  * Debugger is active!
+2021-12-01 07:13:06,637 -  * Debugger PIN: 484-404-401
+2021-12-01 07:13:08,380 -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-01 07:13:08,381 -  * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+2021-12-01 07:13:11,019 -  * Detected change in 'c:\\Users\\Olaide\\Documents\\GitHub\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
