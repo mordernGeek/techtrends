@@ -631,3 +631,36 @@ INFO:werkzeug: * Debugger PIN: 484-404-401
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.43.42:3111/ (Press CTRL+C to quit)
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.188.0.2:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-883-967
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.188.0.2:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-883-967
+INFO:werkzeug:129.205.124.91 - - [09/Dec/2021 23:35:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:129.205.124.91 - - [09/Dec/2021 23:35:52] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:129.205.124.91 - - [09/Dec/2021 23:35:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:app:Article 2020 CNCF Annual Report is retrieved!
+INFO:werkzeug:129.205.124.91 - - [09/Dec/2021 23:36:10] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:129.205.124.91 - - [09/Dec/2021 23:36:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.188.0.2:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-883-967
+INFO:werkzeug:129.205.124.91 - - [10/Dec/2021 09:03:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:129.205.124.91 - - [10/Dec/2021 09:03:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:129.205.124.91 - - [10/Dec/2021 09:03:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:app:Article 2020 CNCF Annual Report is retrieved!
+INFO:werkzeug:129.205.124.91 - - [10/Dec/2021 09:04:08] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:129.205.124.91 - - [10/Dec/2021 09:04:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+DEBUG:app:About Us retrieved successfully
+INFO:werkzeug:129.205.124.91 - - [10/Dec/2021 09:04:12] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:129.205.124.91 - - [10/Dec/2021 09:04:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -

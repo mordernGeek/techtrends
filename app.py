@@ -2,6 +2,9 @@ from logging import Logger
 import logging
 import sqlite3
 #from typing import get_args
+logging.basicConfig(level=logging.NOTSET)
+logging.basicConfig(filename='techtrends.log',format='%(asctime)s - %(message)s') #edited
+
 
 from flask import Flask, jsonify, json, render_template, request, url_for, redirect, flash
 from werkzeug.exceptions import abort
