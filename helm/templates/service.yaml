@@ -3,7 +3,6 @@ kind: Service
 metadata:
   labels:
     app: techtrends
-    tag: latest
   name: techtrends
   namespace: {{ .Values.namespace.name }} 
 spec:
@@ -13,5 +12,4 @@ spec:
     targetPort: 3111
   selector:
     app: techtrends
-    tag: latest
   type: {{ .Values.service.type }} 
