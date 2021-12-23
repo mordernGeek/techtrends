@@ -3,13 +3,7 @@ namespace:
  
 service:
   port: 5111
-  type: ClusterIP
-
-image:
-  repository: morderngeek/techtrends
-  tag: latest
-  pullPolicy: Always
-
+  
 replicaCount: 3
 
 resources:
