@@ -25,7 +25,7 @@ spec:
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         name: {{ .Values.name }}
         ports: 
-        - containerPort: {{ .Values.port.containerPort }}
+        - containerPort: 3111
         resources:
 {{ toYaml .Values.resources | indent 12 }}
         livenessProbe:
