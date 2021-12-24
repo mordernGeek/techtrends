@@ -1,7 +1,7 @@
 name: techtrends
 
 namespace:
-  name: sandbox
+  name: argocd
  
 service:
   port: 4111
